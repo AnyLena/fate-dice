@@ -72,3 +72,7 @@ button:hover {
   box-shadow: rgba(203, 203, 226, 0.2) 0px 7px 29px 0px;
   background-color: #1f73b7;
 }
+
+img {
+  border-radius: 10px;
+}
