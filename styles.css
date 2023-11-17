@@ -10,14 +10,14 @@ h1 {
   color: #2286d8;
 }
 
-/* @media screen and (min-width:800px) {
+@media screen and (min-width:800px) {
 h1 {
   font-family: sans-serif;
   font-size: 7rem;
   font-weight: bolder;
   color: #2286d8;
 }
-} */
+}
 
 footer {
   font-size: 1rem;
@@ -40,19 +40,19 @@ footer {
   margin: 0 2rem;
 }
 
- /* @media screen and (min-width:800px) { 
+ @media screen and (min-width:800px) { 
  
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 50px;
-    margin: 0;
+    margin: 0 5rem;
   }
-} */
+}
 
 img {
-  max-width:200px;
   width: 100%;
+  border-radius: 10px;
 }
 
 button {
@@ -71,8 +71,4 @@ button {
 button:hover {
   box-shadow: rgba(203, 203, 226, 0.2) 0px 7px 29px 0px;
   background-color: #1f73b7;
-}
-
-img {
-  border-radius: 10px;
 }
